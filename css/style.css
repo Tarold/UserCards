@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif !important;
+  background-color: #f5f6f8;
+  text-align: center;
+}
+.userCards {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.userCard {
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 1%), 0 6px 20px 0 rgb(0 0 0 / 10%);
+  border-radius: 20px;
+  overflow: hidden;
+  flex: 0 0 300px;
+}
+.Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 40px 20px 40px;
+}
+.userJobSection {
+  background-color: #ffffff;
+}
+.userImg {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.userStar {
+  font-size: 20px;
+  color: #e6e4e6;
+  margin-top: -10px;
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+}
+.userJob {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.userPayment {
+  font-size: 12px;
+  margin-top: 10px;
+  color: #7f8999;
+  font-weight: bold;
+}
+.userInfoSection {
+  background-color: #fafafa;
+}
+.userName {
+  font-size: 14px;
+  font-weight: bold;
+}
+.userLocation {
+  margin: 15px 0 20px 0;
+  color: #7f8999;
+  font-size: 10px;
+  font-weight: bold;
+}
+.marker {
+  font-size: 12px;
+  padding-top: 2px;
+}
+.userInfo {
+  font-size: 10px;
+  color: #7f8999;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+.Button {
+  width: 90%;
+  text-transform: Uppercase;
+  text-decoration: none;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #039be6;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.viewButton {
+  color: #039be6;
+}
+.offerButton {
+  color: #fafafa;
+  background-color: #039be6;
+}
+.userStatus {
+  font-size: 10px;
+  margin-top: 20px;
+  color: #7f8999;
+}
+.online {
+  color: #8ccb41;
+}
