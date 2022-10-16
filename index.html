@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,20 +21,20 @@
     <title>UserCards</title>
   </head>
   <body>
-    <section class="userCards">
+    <div class="userCards">
       <article class="userCard">
-        <div class="userJobSection Section">
-          <img
-            src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt=""
-            class="userImg"
-          />
-          <i class="fas fa-star userStar StarOff"></i>
-          <!-- <i class="far fa-star userStar"></i> -->
-          <h3 class="userJob">Film Director, Producer</h3>
-          <p class="userPayment">€14/hour</p>
-        </div>
-        <div class="userInfoSection Section">
+        <div class="Section userInfoSection">
+          <div class="Section userJobSection">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+              class="userImg"
+            />
+            <i class="fas fa-star userStar StarOff"></i>
+            <!-- <i class="far fa-star userStar"></i> -->
+            <h3 class="userJob">Film Director, Producer</h3>
+            <p class="userPayment">€14/hour</p>
+          </div>
           <h3 class="userName">Nezuko Kamado, 51</h3>
           <p class="userLocation">
             <i class="fas fa-map-marker-alt marker"></i> New York, United States
@@ -48,30 +48,34 @@
         </div>
       </article>
       <article class="userCard">
-        <div class="userJobSection Section">
-          <img
-            src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
-            alt=""
-            class="userImg"
-          />
-          <i class="fas fa-star userStar StarOn"></i>
-          <!-- <i class="far fa-star userStar"></i> -->
-          <h3 class="userJob">Film Director, Producer</h3>
-          <p class="userPayment">€9/hour</p>
-        </div>
-        <div class="userInfoSection Section">
+        <div class="Section userInfoSection">
+          <div class="Section userJobSection">
+            <img
+              src="https://thumbs.dreamstime.com/b/no-thumbnail-image-placeholder-forums-blogs-websites-148010362.jpg"
+              alt=""
+              class="userImg"
+            />
+            <i class="fas fa-star userStar StarOn"></i>
+            <!-- <i class="far fa-star userStar"></i> -->
+            <h3 class="userJob">Film Director, Producer</h3>
+            <p class="userPayment">€9/hour</p>
+          </div>
           <h3 class="userName">Baltar Margin, 52</h3>
           <p class="userLocation">
             <i class="fas fa-map-marker-alt marker"></i> Reykjavik, Iceland
           </p>
           <p class="userInfo">
-            Icelandic actor, theater and film director, and film producer.
+            Icelandic actor, theater and film director, and film producer. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Quas aut
+            exercitationem atque neque accusantium eius voluptates illo ipsam
+            excepturi. Quasi illum accusantium cum vitae. Aliquam eaque quas
+            distinctio repudiandae porro.
           </p>
           <a href="" class="viewButton Button">View cv</a>
           <a href="" class="offerButton Button">Make offer</a>
           <p class="userStatus">Last seen: 17 minuts ago</p>
         </div>
       </article>
-    </section>
+    </div>
   </body>
 </html>
