@@ -8,6 +8,7 @@ body {
 }
 .userCards {
   margin-top: 10%;
+  margin-bottom: 10%;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -24,14 +25,16 @@ body {
   min-width: 240px;
   margin: 30px;
   transform: scale(1.1);
+  display: flex;
+  flex-direction: column;
 }
 .Section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 25px 40px 20px 40px;
 }
 .userJobSection {
-  box-shadow: 0px -200px 0px 200px #ffffff;
   background-color: #ffffff;
   padding-bottom: 20px;
 }
@@ -73,12 +76,9 @@ body {
 }
 .userInfoSection {
   background-color: #fafafa;
-  padding: 25px 40px 20px 40px;
   height: 100%;
-  overflow: visible;
 }
 .userName {
-  padding-top: 25px;
   font-size: 14px;
   font-weight: bold;
 }
@@ -113,9 +113,21 @@ body {
   margin-top: auto;
   color: #039be6;
 }
+.viewButton {
+  margin-top: auto;
+  color: #039be6;
+}
+.viewButton:hover {
+  color: #fafafa;
+  background-color: #8dd2f5;
+}
 .offerButton {
   color: #fafafa;
   background-color: #039be6;
+}
+.offerButton:hover {
+  color: #039be6;
+  background-color: #ade4ff;
 }
 .userStatus {
   font-size: 10px;
