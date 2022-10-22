@@ -1,8 +1,15 @@
+:root {
+  --color-grey: #7f8999;
+  --color-blue: #039be6;
+  --color-white: #fafafa;
+}
+
 * {
   box-sizing: border-box;
 }
+
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans", sans-serif;
   background-color: #f5f6f8;
   text-align: center;
 }
@@ -16,7 +23,6 @@ body {
   flex-wrap: wrap;
 }
 .userCard {
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 1%), 0 6px 20px 0 rgb(0 0 0 / 10%);
   border-radius: 20px;
   overflow: hidden;
@@ -28,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.Section {
+.cardSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,10 +63,10 @@ body {
   border: 3px solid #ffffff;
   border-radius: 100%;
 }
-.StarOff {
+.starOff {
   color: #e6e4e6;
 }
-.StarOn {
+.starOn {
   color: #fdc413;
 }
 .userJob {
@@ -71,11 +77,11 @@ body {
 .userPayment {
   font-size: 12px;
   margin-top: 10px;
-  color: #7f8999;
+  color: var(--color-grey);
   font-weight: bold;
 }
 .userInfoSection {
-  background-color: #fafafa;
+  background-color: var(--color-white);
   height: 100%;
 }
 .userName {
@@ -84,7 +90,7 @@ body {
 }
 .userLocation {
   margin: 15px 0 20px 0;
-  color: #7f8999;
+  color: var(--color-grey);
   font-size: 10px;
   font-weight: bold;
 }
@@ -94,45 +100,45 @@ body {
 }
 .userInfo {
   font-size: 10px;
-  color: #7f8999;
+  color: var(--color-grey);
   margin-bottom: 30px;
   line-height: 20px;
 }
-.Button {
+.button {
   width: 90%;
   text-transform: Uppercase;
   text-decoration: none;
   margin-top: 5px;
   padding: 10px;
-  border: 1px solid #039be6;
+  border: 1px solid var(--color-blue);
   border-radius: 10px;
   font-size: 12px;
   font-weight: bold;
 }
 .viewButton {
   margin-top: auto;
-  color: #039be6;
+  color: var(--color-blue);
 }
 .viewButton {
   margin-top: auto;
-  color: #039be6;
+  color: var(--color-blue);
 }
 .viewButton:hover {
-  color: #fafafa;
+  color: var(--color-white);
   background-color: #8dd2f5;
 }
 .offerButton {
-  color: #fafafa;
-  background-color: #039be6;
+  color: var(--color-white);
+  background-color: var(--color-blue);
 }
 .offerButton:hover {
-  color: #039be6;
+  color: var(--color-blue);
   background-color: #ade4ff;
 }
 .userStatus {
   font-size: 10px;
   margin-top: 20px;
-  color: #7f8999;
+  color: var(--color-grey);
 }
 .online {
   color: #8ccb41;
